@@ -1,0 +1,15 @@
+.task-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:30px;
+    background-color: #F8CDD0;
+    box-shadow: 0 8px 32px #00000025;
+    border-radius: 10px;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    width: 70%;
+    min-height: 500px;
+    padding: 2rem;
+
+}

@@ -1,0 +1,20 @@
+.task-input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #A31118;
+    font-size: 18px;
+    background-color: transparent;
+}
+.task-btn{
+    width: 167px;
+    background-color: #A31118;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.task-item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #A31118;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px #00000025;
+    cursor: pointer;
+    user-select: none;
+}
+
+.task-item.done{
+    background-color: #F09EA2;
+    text-decoration: line-through;
+}
+.task-item-text{
+    width: 90%;
+}
+.task-item-close{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0 10px;
+}
